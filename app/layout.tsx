@@ -23,6 +23,11 @@ const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
 })
 
+const ppNeueMontreal = localFont({
+  src: "./fonts/PPNeueMontreal-Variable.woff2",
+  variable: "--font-pp-neue-montreal",
+})
+
 const ioskeleyMono = localFont({
   src: [
     { path: "./fonts/IoskeleyMono-Light.woff2", weight: "300" },
@@ -50,7 +55,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetBrainsMono.variable} ${ioskeleyMono.variable} bg-background`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetBrainsMono.variable} ${ioskeleyMono.variable} ${ppNeueMontreal.variable} bg-background`}
       >
         {children}
       </body>
