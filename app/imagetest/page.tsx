@@ -1,5 +1,3 @@
-import { Copyright, Sprout } from "lucide-react"
-
 export default function ImageTestPage() {
   return (
     <div className="grid h-svh w-full place-content-center bg-black">
