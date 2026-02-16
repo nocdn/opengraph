@@ -37,8 +37,9 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#3257D1",
-          padding: "32px",
+          backgroundColor: "#FEF5E2",
+          // backgroundColor: "#3257D1",
+          padding: "38px",
         }}
       >
         {/* BARTOSZ */}
@@ -49,7 +50,8 @@ export default async function Image() {
             fontSize: 140,
             fontWeight: 600,
             letterSpacing: "0.04em",
-            color: "#FEF5E2",
+            // color: "#FEF5E2",
+            color: "#3257D1",
             lineHeight: 1,
           }}
         >
@@ -65,7 +67,8 @@ export default async function Image() {
             fontSize: 140,
             fontWeight: 600,
             letterSpacing: "0.04em",
-            color: "#FEF5E2",
+            // color: "#FEF5E2",
+            color: "#3257D1",
             lineHeight: 1,
           }}
         >
@@ -81,7 +84,8 @@ export default async function Image() {
             fontFamily: "IoskeleyMono",
             fontSize: 140,
             fontWeight: 700,
-            color: "#FEF5E2",
+            // color: "#FEF5E2",
+            color: "#3257D1",
             lineHeight: 1,
           }}
         >
@@ -105,7 +109,8 @@ export default async function Image() {
               fontFamily: "IoskeleyMono",
               fontSize: 40,
               fontWeight: 700,
-              color: "#FEF5E2",
+              // color: "#FEF5E2",
+              color: "#3257D1",
               opacity: 0.7,
               marginBottom: 8,
               marginLeft: 4,
@@ -121,7 +126,8 @@ export default async function Image() {
               fontFamily: "IoskeleyMono",
               fontSize: 140,
               fontWeight: 700,
-              color: "#FEF5E2",
+              // color: "#FEF5E2",
+              color: "#3257D1",
               lineHeight: 1,
             }}
           >
