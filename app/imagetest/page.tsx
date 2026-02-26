@@ -1,11 +1,11 @@
 export default function ImageTestPage() {
   return (
     <div className="grid h-svh w-full place-content-center bg-black">
-      <div className="border-shadow h-[315px] w-[600px] bg-[#3257D1] p-4">
-        <p className="font-pp-neue-montreal text-7xl font-[630] tracking-[0.04em] text-[#FEF5E2]">
+      <div className="border-shadow h-[315px] w-[600px] bg-[#3257D1] px-5 pt-2 pb-4">
+        <p className="font-overused-grotesk text-7xl font-[630] tracking-[0.04em] text-[#FEF5E2]">
           BARTOSZ
         </p>
-        <p className="font-pp-neue-montreal flex w-full items-center justify-between text-7xl font-[630] tracking-[0.04em] text-[#FEF5E2]">
+        <p className="font-overused-grotesk flex w-full items-center justify-between text-7xl font-[630] tracking-[0.04em] text-[#FEF5E2]">
           BAK
         </p>
         <p className="font-ioskeley-mono w-full text-right text-7xl font-bold text-[#FEF5E2]">

@@ -12,8 +12,8 @@ export const size = {
 export const contentType = "image/png"
 
 export default async function Image() {
-  const ppNeueMontrealData = await readFile(
-    join(process.cwd(), "app/fonts/PPNeueMontreal-Semibold.otf")
+  const overusedGroteskData = await readFile(
+    join(process.cwd(), "app/fonts/OverusedGrotesk-SemiBold.otf")
   )
   const ioskeleyMonoBoldData = await readFile(
     join(process.cwd(), "app/fonts/IoskeleyMono-Bold.ttf")
@@ -28,7 +28,7 @@ export default async function Image() {
         alignItems: "center",
         justifyContent: "center",
         backgroundColor: "#000000",
-        padding: "0",
+        padding: 0,
       }}
     >
       <div
@@ -37,21 +37,21 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "#FEF5E2",
-          // backgroundColor: "#3257D1",
-          padding: "38px",
+          backgroundColor: "#3257D1",
+          padding: "16px 40px 32px 40px",
+          boxShadow:
+            "0px 0px 0px 1px rgba(0, 0, 0, 0.06), 0px 1px 2px -1px rgba(0, 0, 0, 0.06), 0px 2px 4px 0px rgba(0, 0, 0, 0.04)",
         }}
       >
         {/* BARTOSZ */}
         <div
           style={{
             display: "flex",
-            fontFamily: "PPNeueMontreal",
-            fontSize: 140,
+            fontFamily: "OverusedGrotesk",
+            fontSize: 144,
             fontWeight: 600,
-            letterSpacing: "0.04em",
-            // color: "#FEF5E2",
-            color: "#3257D1",
+            letterSpacing: "0.03em",
+            color: "#FEF5E2",
             lineHeight: 1,
           }}
         >
@@ -63,12 +63,11 @@ export default async function Image() {
           style={{
             display: "flex",
             width: "100%",
-            fontFamily: "PPNeueMontreal",
-            fontSize: 140,
+            fontFamily: "OverusedGrotesk",
+            fontSize: 144,
             fontWeight: 600,
-            letterSpacing: "0.04em",
-            // color: "#FEF5E2",
-            color: "#3257D1",
+            letterSpacing: "0.03em",
+            color: "#FEF5E2",
             lineHeight: 1,
           }}
         >
@@ -82,10 +81,9 @@ export default async function Image() {
             width: "100%",
             justifyContent: "flex-end",
             fontFamily: "IoskeleyMono",
-            fontSize: 140,
+            fontSize: 144,
             fontWeight: 700,
-            // color: "#FEF5E2",
-            color: "#3257D1",
+            color: "#FEF5E2",
             lineHeight: 1,
           }}
         >
@@ -109,11 +107,10 @@ export default async function Image() {
               fontFamily: "IoskeleyMono",
               fontSize: 40,
               fontWeight: 700,
-              // color: "#FEF5E2",
-              color: "#3257D1",
+              color: "#FEF5E2",
               opacity: 0.7,
               marginBottom: 8,
-              marginLeft: 4,
+              marginLeft: 8,
             }}
           >
             UOY STUDENT
@@ -124,10 +121,9 @@ export default async function Image() {
             style={{
               display: "flex",
               fontFamily: "IoskeleyMono",
-              fontSize: 140,
+              fontSize: 144,
               fontWeight: 700,
-              // color: "#FEF5E2",
-              color: "#3257D1",
+              color: "#FEF5E2",
               lineHeight: 1,
             }}
           >
@@ -140,8 +136,8 @@ export default async function Image() {
       ...size,
       fonts: [
         {
-          name: "PPNeueMontreal",
-          data: ppNeueMontrealData,
+          name: "OverusedGrotesk",
+          data: overusedGroteskData,
           style: "normal",
           weight: 600,
         },

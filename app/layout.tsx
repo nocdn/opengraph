@@ -40,6 +40,15 @@ const ioskeleyMono = localFont({
   variable: "--font-ioskeley-mono",
 })
 
+const overusedGrotesk = localFont({
+  src: [
+    { path: "./fonts/OverusedGrotesk-Roman.otf", weight: "400" },
+    { path: "./fonts/OverusedGrotesk-Medium.otf", weight: "500" },
+    { path: "./fonts/OverusedGrotesk-SemiBold.otf", weight: "600" },
+  ],
+  variable: "--font-overused-grotesk",
+})
+
 const isDevelopment = process.env.NODE_ENV === "development"
 
 export const metadata: Metadata = {
@@ -55,7 +64,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetBrainsMono.variable} ${ioskeleyMono.variable} ${ppNeueMontreal.variable} bg-background`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${jetBrainsMono.variable} ${ioskeleyMono.variable} ${ppNeueMontreal.variable} ${overusedGrotesk.variable} bg-background`}
       >
         {children}
       </body>
